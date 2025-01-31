@@ -21,6 +21,13 @@ async function fetchFronter() {
             console.error(`HTTP Error! Status: ${response.status}`);
             throw new Error(`HTTP Error! Status: ${response.status}`);
         }
+         (res) => res.json().then( 
+   (result) => { items = result; console.log(items); }, 
+   (error) => { console.log(error); // Invalid JSON } 
+ ), 
+ (error) => { 
+   console.log(error); // API Call failed 
+ });
 
         const data = await response.json();
         console.log("Received data:", data);

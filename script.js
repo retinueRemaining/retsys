@@ -1,5 +1,5 @@
 // script.js
-const API_KEY = "oYeh+t81SlwvFC3ky+EoKLW3xq/hQH0r4/nNZkqwpyY8+B7VlvJnw1U9McFEetSl"; // Replace with your SimplyPlural API Key
+const API_KEY = "ERy4dQT0YnX3Uf6HNRtTVhfh7grNdQTl0Fj6xoqKkQ/xB5ahShGsIXON8iqT5JmQ"; // Replace with your SimplyPlural API Key
 let SYSTEM_ID = "0LBrn48myHbvBJwXzzxOwF9lw492"; // Will be fetched dynamically
 
 // Function to fetch system ID
